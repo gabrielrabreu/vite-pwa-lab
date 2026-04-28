@@ -10,7 +10,7 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
+      includeAssets: ["favicon.ico", "apple-touch-icon.png"],
       manifest: {
         name: "Vite PWA Lab",
         short_name: "VitePWA",
